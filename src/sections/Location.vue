@@ -72,7 +72,7 @@ i {
 .image {
     position: absolute;
     z-index: 1;
-    background:url('../assets/pub_hero.jpg') center no-repeat;
+    background:url('../assets/hotel.jpg') center no-repeat;
     background-size: cover;
     right: 0;
     top: 30%;

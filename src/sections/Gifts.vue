@@ -5,10 +5,9 @@
     <section class="gifts">
         <div class="header" />
         <div class="box">
-            <p>We are just so grateful that you can join us on our special day. Your company is the only gift we need. </p>
-            <p>If you wish to give, a contribution to our honeymoon would be appreciated. You may use the following monzo link below.</p>
+            <p>Wir freuen uns sehr, dass ihr mit uns feiert, und erwarten keine Geschenke.</p>
+            <p>Solltet ihr uns dennoch eine Freude machen wollen, würden wir uns über einen Beitrag zu unserer Flitterwochenkasse freuen.</p>
         </div>
-        <a class="button" target="_blank" href="https://monzo.me/yanyeeli">Monzo.me link</a>
     </section>
 </template>
 

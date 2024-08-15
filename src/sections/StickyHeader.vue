@@ -27,7 +27,7 @@
     <section class="sticky-header" :class="{'sticky-header--is-visible': isVisible}">
         <div class="inner">
             <div class="signature" />
-            <a :href="href" target="_blank">RSVP</a>
+            <a :href="href" target="_blank">Gebt uns Bescheid</a>
         </div>
     </section>
 </template>

@@ -38,41 +38,29 @@
     <DuoResponsive>
       <Pullquote />
       <Location  type="pub" color="#C8E2FF">
-        <LocationSection title="<strong>The Duke of Richmond</strong>" address="316 Queensbridge Road, Hackney, London, E8 3NZ" link="https://maps.app.goo.gl/pqJo8ioyEe3suU9UA" />
-        <div class="box"><i>
-          Closest station: Dalston Junction on Overground, about 10 minutes walk.<br>
-          Nearby bus: No. 236
-        </i></div>
+        <LocationSection title="<strong>Hotel Glockenspitze</strong>" address="Im Sportzentrum 2, 57610 Altenkirchen" link="https://maps.app.goo.gl/tZN4esGW6nQRg9h97" />
+        <div class="box">
+          Wir speisen im Hotelrestaurant <i>Maracana</i>
+        </div>
       </Location>
     </DuoResponsive>
     <Day>
       <DayGroup>
-        <DaySection :img="imgPub" time="3:30 PM">
-          Door opens<br />
-          Welcome drinks
+        <DaySection :img="imgDrinks" time="18:00 Uhr">
+          Ankunft<br />
+          Sektempfang
         </DaySection>
-        <DaySection :img="imgCake" time="5:00 PM">
-          Speeches<br />
-          Cake cutting
+        <DaySection :img="imgFood" time="19:00 Uhr">
+          Abendessen
         </DaySection>
-        <DaySection :img="imgPartyFood"  time="6:00 PM">
-          Party food + Drinks
-        </DaySection>
-        <DaySection :img="imgDance"  time="9:00 PM" time2="til midnight">
-          Dance the night away
-        </DaySection> 
       </DayGroup>
     </Day>
-    <DuoResponsive reverse>
-      <DressCode />
-      <DressCodeImage />
-    </DuoResponsive>
     <DuoResponsive desktopTopMargin>
       <GiftsImage />
       <Gifts />
     </DuoResponsive>
     <Footer />
-    <StickyHeader href="https://forms.gle/JKuy77s5jZ1oFrT86" />
+    <StickyHeader href="https://docs.google.com/forms/d/e/1FAIpQLSdh3k6dcgNVipJ4PJk-cC--eyeLcJkEi3uuEWUXIrmRDj_ViA/viewform?usp=sf_link" />
     
   </div>
 </template>
