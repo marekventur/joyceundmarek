@@ -1,0 +1,41 @@
+@import "./normalize.css";
+@import "./base.css";
+
+#app {
+  max-width: 100%;
+  overflow-x: hidden;
+  line-height: 1.9rem
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+section .inner {
+  display: block;
+  max-width: 1000px;
+  width: 1000px;
+  padding: 0;
+  text-align: center;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+a, a:hover, a:active, a:visited {
+  color: #000;
+
+  cursor: url('./heart_full.png') 8 8, auto;
+}
